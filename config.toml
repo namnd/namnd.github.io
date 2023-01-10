@@ -1,4 +1,19 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'namnd | personal blog'
+title = 'namnd ☕ personal blog'
 theme = 'ezhil'
+copyright = "© Copyright namnd.com"
+summaryLength = 20
+
+[params]
+  mainSections = ["posts"]
+
+[[menu.main]]
+  name = 'Posts'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'About'
+  url = '/about'
+  weight = 2
