@@ -5,7 +5,7 @@ date: 2023-01-10T23:01:04+11:00
 
 In exactly two weeks, it will be my one year anniversary at InDebted.
 InDebted, [who won the best place to work in Australia in 2022](https://www.afr.com/work-and-careers/workplace/why-indebted-is-australia-s-best-place-to-work-20220407-p5aboy#:~:text=Introducing%20a%20four-day%20week,BOSS%20Best%20Place%20to%20Work) is one of the first companies in Australia that offers four days working week as well as fully remote work.
-As I have been working 4DWW for almost a year now, I want to reflect on this experience, mostly for my personal development, but also might be useful to someone else.
+As I have been working 4DWW for almost a year now, I want to reflect on this experience, mostly for my personal development, and hopefully, it might also be useful to someone else.
 
 ## The good ones
 
@@ -17,16 +17,18 @@ Without a doubt, I would say the most benefit of 4DWW is a great work-life balan
 
 Before that, I was always trying to have a decent work-life balance.
 Working from home kinda helped a lot.
-However, 4DWW does makes a big difference. Surprisingly, an extra day off is actually a whole lot of time. It's so much easier to organise outside of work appointments. I can have more quality time not just with family, and friends, but also for myself. I exercise more often. I just feel much better, physically and mentally.
+However, 4DWW does makes a big difference. Surprisingly, an extra day off is actually a whole lot of time.
+It's so much easier to organise appointments outside of work. I can have more quality time not just with family, and friends, but also for myself. I exercise more often. I just feel much better, physically and mentally.
 
 ### Am I more productive at work?
 
 In a short version, I would say YES. However, it's not that simple to tell at first.
 
-In short terms, am I more happy at work? Probably yes? Do I get more stuffs done? Unlikely. It would be lying if I said I can get as much work done as I would work 5 days a week.
+In short terms, am I more happy at work? Probably yes? Do I get more stuffs done? Unlikely.
+It would be lying if I said I can get as much work done as I would work 5 days a week.
 
 However, when thinking about a span of 1 year period, it could be a different story.
-* For the whole one year at InDebted, apart from the New Year holiday, I only took 1 annual leave (family business), and 1 personal (carer) leave. I never have that feeling of burnout like some of my previous roles. I don't feel like I need more rests. I have more than enough every week. I am just excited to be back to work on every single Monday. In contrast to my previous roles, I often used almost all the leaves I have to take rest in between busy weeks.
+* For the whole one year at InDebted, apart from the New Year holiday, I only took 1 annual leave (family business), and 1 personal (carer) leave. I never have that feeling of burnout like some of my previous roles. I don't feel like I need more rests. I have more than enough every week. I am just excited to be back to work on every single Monday. In contrast to my previous roles, I often used almost all the leaves I can have to take rest in between busy weeks.
 
 * All the works that I have done during this one year, there was **zero** bug, or any reworks required. This could be partially due to our engineering culture. But I would also argue that the fresh mind also help me to produce quality work overall.
 
@@ -51,6 +53,6 @@ I just enjoy working on the problems that still stuck in my head, doesn't matter
 ### Dedicate time for career growth
 
 My passion for tech is still very much alive.
-I love challenging myself, put myself out of comfort zone.
+I love challenging myself, putting myself out of comfort zone.
 However, often the case, it's easier said than done.
 While enjoying a great work-life balance, I feel like the best things I can do is keep learning, exploring things. I hope to write another post to share things I want to learn this year.
