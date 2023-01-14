@@ -5,7 +5,7 @@ theme = 'ezhil'
 copyright = "© Copyright namnd.com"
 summaryLength = 20
 
-googleAnalytics = "G-641B0H8SCC"
+googleAnalytics = "G-8LL0B59QRS"
 
 [params]
   mainSections = ["posts"]
