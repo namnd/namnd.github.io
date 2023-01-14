@@ -1,12 +1,15 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'namnd ☕ personal blog'
+title = 'namnd ☕'
 theme = 'ezhil'
 copyright = "© Copyright namnd.com"
 summaryLength = 20
 
+googleAnalytics = "G-641B0H8SCC"
+
 [params]
   mainSections = ["posts"]
+  subtitle = "personal blog"
 
 [[menu.main]]
   name = 'Posts'
@@ -17,3 +20,16 @@ summaryLength = 20
   name = 'About'
   url = '/about'
   weight = 2
+
+
+[[params.social]]
+  name = "Github"
+  icon = "github"
+  url = "https://github.com/namnd"
+
+  [[params.social]]
+  name = "Twitter"
+  icon = "twitter"
+  url = "https://twitter.com/fishsauc3"
+
+
