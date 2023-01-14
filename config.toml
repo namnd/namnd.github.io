@@ -1,11 +1,13 @@
 baseURL = '/'
-languageCode = 'en-us'
+languageCode = 'en-au'
 title = 'namnd ☕'
 theme = 'ezhil'
-copyright = "© Copyright namnd.com"
+googleAnalytics = "G-8LL0B59QRS"
 summaryLength = 20
 
-googleAnalytics = "G-8LL0B59QRS"
+copyright = "© Copyright namnd.com"
+[author]
+  name = 'Nam Nguyen'
 
 [params]
   mainSections = ["posts"]
@@ -27,9 +29,12 @@ googleAnalytics = "G-8LL0B59QRS"
   icon = "github"
   url = "https://github.com/namnd"
 
-  [[params.social]]
+[[params.social]]
   name = "Twitter"
   icon = "twitter"
   url = "https://twitter.com/fishsauc3"
 
-
+[[params.social]]
+  name = "RSS"
+  icon = "rss"
+  url = "/index.xml"
