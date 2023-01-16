@@ -19,10 +19,14 @@ copyright = "© Copyright namnd.com"
   weight = 1
 
 [[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 2
+
+[[menu.main]]
   name = 'About'
   url = '/about'
-  weight = 2
-
+  weight = 3
 
 [[params.social]]
   name = "Github"
@@ -38,3 +42,7 @@ copyright = "© Copyright namnd.com"
   name = "RSS"
   icon = "rss"
   url = "/index.xml"
+
+# Enable tags.
+[taxonomies]
+   tag = "tags"
