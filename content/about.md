@@ -11,3 +11,5 @@ My name is **Nam Nguyen**, and I'm a mediocre Software Engineer at [InDebted](ht
 Most of the time, I probably say [something silly](https://twitter.com/fishsauc3) on Twitter.\
 On this site, I will try to be more thoughtful.\
 Opinions are my own.
+
+[My Identity](/gpg.key)
