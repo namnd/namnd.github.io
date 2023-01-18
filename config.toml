@@ -6,6 +6,11 @@ googleAnalytics = "G-8LL0B59QRS"
 summaryLength = 20
 
 copyright = "© Copyright namnd.com"
+
+pygmentsstyle = "solarized-dark"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
 [author]
   name = 'Nam Nguyen'
 

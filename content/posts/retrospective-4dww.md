@@ -1,7 +1,7 @@
 ---
 title: "A retrospective of 4DWW"
 date: 2023-01-10T23:01:04+11:00
-tags: ["retro", "4dww", "remote"]
+tags: ["retro", "4dww", "remote", "wfh"]
 ---
 
 In exactly two weeks, it will be my one year anniversary at InDebted.
