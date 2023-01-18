@@ -191,6 +191,10 @@ ul {
     background-color: #FAFAFA;
 }
 
+code {
+  font-family: monaco;
+}
+
 pre code {
   display: inline-block;
 }
