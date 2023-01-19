@@ -6,7 +6,7 @@ tags: ["wfh", "security", "compliance", "gpg", "ssh", "yubikey"]
 
 I believe WFH is going to be (if not already) a new normal for the tech industry.
 The benefits of it undeniably outweigh some of its disadvantages.
-However, in my opinion, there is one major problem with WFH is security compliance.
+However, in my opinion, there is one major problem with WFH, that is security compliance.
 There are enough stories, or articles about this, so I am not going to explain why that is the case.
 Instead, I want to share my own setup, as an effort to have a reasonably secure and compliance workstation at home.
 
@@ -32,18 +32,19 @@ Hence in the first part of the series, I will talk about GPG and Yubikey.
 ```bash
 $ gpg --full-generate-key --expert
 ```
+
 A few notes
 * I prefer ECC over RSA.
 * I also prefer to have a single master key just for **C**ertify, one **A**uthentication only subkey for SSH authentication, and another **S**igning only subkey for signing git commits.
-* I do use passphrases for the master key but not for subkeys.
+* I do use passphrases for the the master key, but not for the subkeys.
 * I do use multiple identities for a single primary key, i.e. one for my personal usage (me@namnd.com), another one for my current workplace. Some people might say this is not good practice, but I feel like it's just personal preference. It might also depend on the company's policy. My company is pretty flexible about this. I'm also ok with being identified and associated with the company.
 After all, there is `gpg> adduid` command for a reason, right? 
-* Most importantly, I do not keep the master key in the Macbook. I backed it up in a USB stick and keep it in a safe place.
-I only keep **A**uthentication and **S**igning subkeys in Yubikey
+* Most importantly, I do not keep the master key in the Macbook. I backed it up in an encrypted USB stick and keep it in a safe place.
+I only keep **A**uthentication and **S**igning subkeys in Yubikey.
 
 ```bash
 # Export all keys to USB stick(s)
-$ gpg --armor --output /Volumes/Untitled/gpg-keys.txt --export-secret-key me@namnd.com 
+$ gpg --armor --output /Volumes/Superkey/gpg-keys.txt --export-secret-key me@namnd.com 
 # Export subkeys to a temporary file
 $ gpg --armor --output ./secret-subkeys.txt --export-secret-subkeys me@namnd.com
 # Delete the whole key
@@ -51,7 +52,8 @@ $ gpg --delete-secret-key me@namnd.com
 # Re-import subkeys
 $ gpg --import ./secret-subkeys.txt
 ```
-### Step 2: Use GPG key for SSH authentication
+
+## Step 2: Use GPG key for SSH authentication
 
 First, get the keygrip of the **A**uthentication key with command
 
@@ -85,7 +87,7 @@ To get public SSH key, run command
 $ ssh-add -L
 ```
 
-### Step 3: Import subkeys to Yubikey
+## Step 3: Import subkeys to Yubikey
 
 First, check card status with command
 ```bash
@@ -144,7 +146,7 @@ $ gpg-connect-agent --hex
 
 Now that should be enough for **Part 1**. In the next part, we will talk about Nix OS and Virtual machine.
 
-### References & credits
+## References & credits
 
 * https://github.com/YubicoLabs/sign-git-commits-yubikey
 * https://opensource.com/article/19/4/gpg-subkeys-ssh
