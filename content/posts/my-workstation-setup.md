@@ -144,7 +144,7 @@ $ gpg-connect-agent --hex
 > scd apdu 00 44 00 00 # Should see "D[0000]  90 00"
 ```
 
-Now that should be enough for **Part 1**. In the next part, we will talk about Nix OS and Virtual machine.
+That should be enough for **Part 1**. In the next part, we will talk about Nix OS and Virtual machine.
 
 ## References & credits
 
