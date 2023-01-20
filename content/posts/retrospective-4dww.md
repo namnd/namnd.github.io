@@ -10,7 +10,7 @@ As I have been working 4DWW for almost a year now, I want to reflect on this exp
 
 ## The good ones
 
-When I first started the job, it felt surreal. I never thought about it. I wasn't looking for that criteria at all. In fact, when the recruiter approached me, 4DWW wasn't even mentioned, until very last round of interview. So, when I got the job, I was like, that sounds really cool, imagine free time I will have, maybe I can work on a side hustle project or something.
+When I first started the job, it felt weird in a good way. I never thought about it. I wasn't looking for that criteria at all. In fact, when the recruiter approached me, 4DWW wasn't even mentioned, until very last round of interview. So, when I got the job, I was like, that sounds really cool, imagine free time I will have, maybe I can work on a side hustle project or something.
 
 ### Work-life balance
 
