@@ -89,10 +89,9 @@ ssb>  ed25519 2023-01-17 [A] [expires: 2024-01-17]
 ssb>  cv25519 2023-01-21 [E] [expires: 2024-01-21]
 ```
 
-Now we are ready to use Yubikey for Password store, SSH authentication and signing commits.
+Now we are ready to use Yubikey
 
-
-If for some reason, you want to delete GPG records in Yubikey, follow this [instruction](https://support.yubico.com/hc/en-us/articles/360013761339-Resetting-the-OpenPGP-Applet-on-the-YubiKey)
+Note: if for some reason, you want to delete GPG records in Yubikey, follow this [instruction](https://support.yubico.com/hc/en-us/articles/360013761339-Resetting-the-OpenPGP-Applet-on-the-YubiKey)
 
 TL;DR
 
@@ -104,7 +103,7 @@ $ gpg-connect-agent --hex
 > scd apdu 00 e6 00 00 # Should see "D[0000]  90 00"
 > scd apdu 00 44 00 00 # Should see "D[0000]  90 00"
 ```
-## Step 2: Use GPG key for SSH authentication
+## Step 3: Use GPG key for SSH authentication
 
 First, get the keygrip of the **A**uthentication key with command
 
@@ -138,6 +137,9 @@ To get public SSH key, run command
 $ ssh-add -L
 ```
 
+## Step 4: Password store
+
+GPG/SSH keys are great. However, it's impossible to avoid plain text passwords. For this, I use [pass](https://www.passwordstore.org/) with the GPG **E**ncrypt subkey. It's super simple, secure, and has everything things I need for a password management tool. I do use a private remote repository to keep all passwords in sync between my devices.
 
 
 That should be enough for **Part 1**. In the next part, we will talk about Nix OS and Virtual machine.
