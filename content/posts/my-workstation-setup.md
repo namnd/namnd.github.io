@@ -40,7 +40,7 @@ A few notes
 * I do use multiple identities for a single primary key, i.e. one for my personal usage (me@namnd.com), another one for my current workplace. Some people might say this is not good practice, but I feel like it's just personal preference. It might also depend on the company's policy. My company is pretty flexible about this. I'm also ok with being identified and associated with the company.
 After all, there is `gpg> adduid` command for a reason, right? 
 * Most importantly, I do not keep the master key in the Macbook. I backed it up in an encrypted USB stick and keep it in a safe place.
-I only keep **A**uthentication and **S**igning subkeys in Yubikey.
+I only keep **A**uthentication, **E**ncrypt, and **S**igning subkeys in Yubikey.
 
 ```bash
 # Export all keys to USB stick(s)
