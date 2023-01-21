@@ -35,7 +35,7 @@ $ gpg --full-generate-key --expert
 
 A few notes
 * I prefer ECC over RSA.
-* I also prefer to have a single master key just for **C**ertify, one **A**uthentication only subkey for SSH authentication, and another **S**igning only subkey for signing git commits.
+* I also prefer to have a single master key just for **C**ertify, and three subkeys: one **A**uthentication only for SSH authentication, one **E**ncrypt only for password store, and another **S**igning only for signing git commits.
 * I do use passphrases for the the master key, but not for the subkeys.
 * I do use multiple identities for a single primary key, i.e. one for my personal usage (me@namnd.com), another one for my current workplace. Some people might say this is not good practice, but I feel like it's just personal preference. It might also depend on the company's policy. My company is pretty flexible about this. I'm also ok with being identified and associated with the company.
 After all, there is `gpg> adduid` command for a reason, right? 
