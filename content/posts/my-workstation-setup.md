@@ -21,6 +21,7 @@ Compress them all in one long post could make it unpleasant to follow, so I will
 ## Softwares
 
 - [GnuPG](https://gnupg.org/)
+- [pass](https://www.passwordstore.org/)
 
 The first and foremost thing I do whenever setting up a new workstation is to get the GPG key setup properly.
 Hence in the first part of the series, I will talk about GPG and Yubikey.
@@ -72,6 +73,7 @@ gpg> key 1
 gpg> keytocard
 Please select where to store the key:
    (1) Signature key
+   (2) Encryption key
    (3) Authentication key
 Your selection? 1 # make sure you select the right destination for each key
 ... Repeat above for other subkeys
@@ -103,6 +105,7 @@ $ gpg-connect-agent --hex
 > scd apdu 00 e6 00 00 # Should see "D[0000]  90 00"
 > scd apdu 00 44 00 00 # Should see "D[0000]  90 00"
 ```
+
 ## Step 3: Use GPG key for SSH authentication
 
 First, get the keygrip of the **A**uthentication key with command
@@ -139,10 +142,11 @@ $ ssh-add -L
 
 ## Step 4: Password store
 
-GPG/SSH keys are great. However, it's impossible to avoid plain text passwords. For this, I use [pass](https://www.passwordstore.org/) with the GPG **E**ncrypt subkey. It's super simple, secure, and has everything things I need for a password management tool. I do use a private remote repository to keep all passwords in sync between my devices.
+GPG/SSH keys are great. However, it's impossible to avoid plain text passwords. For this, I use [pass](https://www.passwordstore.org/) with the GPG **E**ncrypt subkey. It's super simple, secure, and has everything things I need for a password management tool. 
 
+I do use a private remote repository to keep all passwords in sync between my devices.
 
-That should be enough for **Part 1**. In the next part, we will talk about Nix OS and Virtual machine.
+That should be enough for **Part 1**. At this point, in order to read/write a password, or to have access to my github, one must have access to my Yubikey which is also protected by a PIN code. It might not look obvious how centric and secure this setup is yet. Hopefully, by the end of series, it will make more sense. In the next part, we will talk about Nix OS and Virtual machines.
 
 ## References & credits
 
