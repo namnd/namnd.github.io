@@ -23,8 +23,7 @@ Compress them all in one long post could make it unpleasant to follow, so I will
 - [GnuPG](https://gnupg.org/)
 - [pass](https://www.passwordstore.org/)
 
-The first and foremost thing I do whenever setting up a new workstation is to get the GPG key setup properly.
-Hence in the first part of the series, I will talk about GPG and Yubikey.
+In this first part of the series, I will talk about GnuPG and Yubikey, which is my day-to-day security layer. If you are unfamiliar with GPG, head to the [FAQs](https://www.gnupg.org/faq/gnupg-faq.html) for a quick grasp.
 
 *Disclaimer:* There are a few different ways to do this. This is just my personal preference.
  
@@ -40,7 +39,7 @@ A few notes
 * I do use passphrases for the the master key, but not for the subkeys as I will use Yubikey PIN code for subkeys.
 * I do use multiple identities for a single primary key, i.e. one for my personal usage (me@namnd.com), another one for my current workplace. Some people might say this is not good practice, but I feel like it's just personal preference. It might also depend on the company's policy. My company is pretty flexible about this. I'm also ok with being identified and associated with the company.
 After all, there is `gpg> adduid` command for a reason, right? 
-* Most importantly, I do not keep the master key in the Macbook. I backed it up in an encrypted USB stick and keep it in a safe place.
+* Most importantly, I do not keep the master key in the Macbook. I back it up in an encrypted USB stick and keep it in a safe place.
 I only keep **A**uthentication, **E**ncrypt, and **S**igning subkeys in Yubikey.
 
 ```bash
