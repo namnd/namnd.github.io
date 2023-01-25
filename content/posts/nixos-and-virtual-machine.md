@@ -2,30 +2,51 @@
 title: "Nix OS and Virtual machine"
 date: 2023-01-21T10:22:45+11:00
 draft: true
-tags: ["nix", "nixos", "vm", "utm", "wfh", "security"]
+tags: ["nix", "nixos", "vm", "utm", "wfh", "security", "kitty", "lemonade", "gpg"]
 ---
 
-This is the **Part 2** of the series about my workstation setup.
-In the [first part](/posts/my-workstation-setup/), I talked about GnuPG and Yubikey. In this post, I will share my kind of Operating system level setup.
+This is the **Part 2** of the series about my remote workstation setup.
+In the [first part](/posts/my-workstation-setup/), I talked about GnuPG and Yubikey. In this post, I will share my OS (Operating System) level setup.
 
-My laptop is a Mac, however, I mainly use MacOS for productivity apps, such as web browser, slack, zoom, etc. where native apps on Mac is very nice. For the development environment, I always prefer Linux.
-Don't get me wrong. Mac OS is pretty good for dev too, I just think, Linux is still better overall. So why not combine the best of both world, right?
+My laptop is a Macbook M1 Pro. However, I mainly use MacOS for productivity apps, such as web browser, slack, zoom, etc. where native apps on Mac works really well. For the development environment, I always prefer Linux.
+Mac OS is pretty good for dev, I just think, Linux is still better overall. So why not combine the best of both world, right?
 
 ## Mac OS
 
 Although I don't use MacOS for development, there is still a bit of setup required.
-First thing is getting Nix and Home Manager, which is pretty much just a drop-in replacement for the infamouse Homebrew, but much better in many ways.
+First thing is getting Nix and Home Manager, which is pretty much just a drop-in replacement for the infamouse Homebrew, but better in many ways.
 
-Next step would be cloning my [nixos repository](https://github.com/namnd/nixos). 
-* The **host** folder contains config for setting up libraries needed in my MacOS, such as *GnuPG*, *pass*, *[lemonade](https://github.com/lemonade-command/lemonade)*. 
-* The **vm** folder contains scripts and config for setting up NixOS virtual machines (VM).
+Next step would be cloning my [nixos repository](https://github.com/namnd/nixos). This repo has a few different purposes, but for this setup, there are two main components:
 
-## Virtual machine
+### Host
 
-If you have read the first part, you probably know I use a single GPG key with multiple identities, one for personal stuffs, and another one for work.
-One of the reason I (possibly) chose to do so, is that I do have one VM for my personal usage, and another one for work. Each identity is configured for each VM.
-This way, I would never be able to mix them up.
+The **host** folder contains scripts and config for setting up libraries for my MacOS:
+  1. GnuPG
+  2. [pass](https://www.passwordstore.org/) - password management tool
+  3. [lemonade](https://github.com/lemonade-command/lemonade) - to sync system clipboards between host & vm
+  4. [Hammerspoon](https://www.hammerspoon.org) - mostly for keyboard shortcut, and a litte bit of window tiling manager
+  5. [qutebrowser](https://qutebrowser.com/) - my primary web browser, a keyboard-driven browser. Secondary is Firefox, and Chrome/Safari as backup.
+  6. Last but not least [kitty](https://sw.kovidgoyal.net/kitty/).
 
+That's it. Any other apps (slack, zoom, etc), I just download the *.dmg/.pkg* and click the buttons.
+
+### VM
+
+The **vm** folder contains scripts and config for setting up multiple NixOS virtual machines (VM).
+
+I have one VM for my personal usage, and another one for work.
+It's super [simple and easy](https://github.com/namnd/nixos/tree/main/vm) to create a new one, so it's not unusual for me to destroy the VM and re-create another one every now and then.
+
+* Even though, to access the VM, one will need the Yubikey, I'd rather not to have any of the company's IP (Intellectual Property) or PII (Personal Identitfiable Information)
+sitting on my computer.
+Unless I know I will have to work tomorrow, I might end up destroying the VM once I finish work that day. It's a little extreme, I know.
+But when working with sensitive information, and you have some what decent access to valuable information, it's always a risk, and that's just a risk I don't want
+to take. Also, it takes literally less than 10 minutes for me to provisioning fully working development environment at work, I think it's totally worthy to eliminate that risk.
+* For personal VM, I don't care that much. My personal stuff is not that sensitive. The laptop is actually my company's asset, so having personal documents/projects in the VM and isolated to the host is more than enough.
+
+A couple of notes
+
+* I use 
 
 For virtual machine software, I use [UTM](https://mac.getutm.app/) since it's free and support ARM64 architecture pretty well.
 
