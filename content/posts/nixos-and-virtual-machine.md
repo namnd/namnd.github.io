@@ -51,7 +51,7 @@ But when working with sensitive information, and you have some what decent acces
 
 Linux is already dominant in the server world. It's getting more and more popular in the desktop / laptop market, and I think its popularity will keep growing.
 I can see myself keep using Linux for the foreseeable future.
-It doesn't matter what device I might get from the next jobs, I still have a piece of mind that what I have today will continue working tomorrow.
+It doesn't matter what device I might get from the next jobs, I still have a peace of mind that what I have today will continue working tomorrow.
 
 ## How
 
