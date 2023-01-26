@@ -5,22 +5,18 @@ draft: true
 tags: ["nix", "nixos", "vm", "utm", "wfh", "security", "kitty", "lemonade", "gpg"]
 ---
 
-This is the **Part 2** of the series about my remote workstation setup.
+This is **Part 2** of the series about my remote workstation setup.
 In the [first part](/posts/my-workstation-setup/), I talked about GnuPG and Yubikey. In this post, I will share my OS (Operating System) level setup.
 
-My laptop is a Macbook M1 Pro. However, I mainly use MacOS for productivity apps, such as web browser, slack, zoom, etc. where native apps on Mac works really well. For the development environment, I always prefer Linux.
-Mac OS is pretty good for dev, I just think, Linux is still better overall. So why not combine the best of both world, right?
+My laptop is a Macbook M1 Pro. However, I mainly use MacOS for productivity apps, such as web browser, slack, zoom, etc. that IMHO works best on Mac. For the development environment, I always prefer Linux.
+Mac OS is pretty good for dev, I just think, Linux is still better overall. So why not combine the best of both, right?
 
-## Mac OS
+## Mac OS - the host
 
 Although I don't use MacOS for development, there is still a bit of setup required.
 First thing is getting Nix and Home Manager, which is pretty much just a drop-in replacement for the infamouse Homebrew, but better in many ways.
 
-Next step would be cloning my [nixos repository](https://github.com/namnd/nixos). This repo has a few different purposes, but for this setup, there are two main components:
-
-### Host
-
-The **host** folder contains scripts and config for setting up libraries for my MacOS:
+Tools & libraries that I have on my Mac:
   1. GnuPG
   2. [pass](https://www.passwordstore.org/) - password management tool
   3. [lemonade](https://github.com/lemonade-command/lemonade) - to sync system clipboards between host & vm
@@ -30,9 +26,13 @@ The **host** folder contains scripts and config for setting up libraries for my 
 
 That's it. Any other apps (slack, zoom, etc), I just download the *.dmg/.pkg* and click the buttons.
 
-### VM
+## NixOS - virtual machines
 
-The **vm** folder contains scripts and config for setting up multiple NixOS virtual machines (VM).
+There are a few reasons why I use VM, the main ones are:
+
+* I only have (need) one laptop but I want to use it for everything: work, personal projects, and sometime for experiments.
+I don't like the idea of having too many devices. It's waste of money, space, and time to manage.
+
 
 I have one VM for my personal usage, and another one for work.
 It's super [simple and easy](https://github.com/namnd/nixos/tree/main/vm) to create a new one, so it's not unusual for me to destroy the VM and re-create another one every now and then.
