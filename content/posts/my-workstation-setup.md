@@ -143,7 +143,7 @@ $ ssh-add -L
 
 GPG/SSH keys are great. However, it's impossible to avoid plain text passwords. For this, I use [pass](https://www.passwordstore.org/) with the GPG **E**ncrypt subkey. It's super simple, secure, and has everything things I need for a password management tool. 
 
-I do use a private remote repository to keep all passwords in sync between my devices.
+I do use a private remote repository to keep all passwords in sync between my Macbook and personal iPhone.
 
 That should be enough for **Part 1**. At this point, in order to read/write a password, or to have access to my github, one must have access to my Yubikey which is also protected by a PIN code. It might not look obvious how centric and secure this setup is yet. Hopefully, by the end of series, it will make more sense. In the next part, we will talk about Nix OS and Virtual machines.
 
