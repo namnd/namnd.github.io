@@ -33,12 +33,12 @@ There are quite a few reasons why I use VM. Belows are the main ones
 
 As a software engineer, I spend time out side of work on the laptop quite often, things like personal projects, learn new techs, and random experiments, etc.
 One thing I definitely don't want is messing up work with the others.
-Simple things like pushing a git commit at work using my personal email, provisioning personal resources to the company's cloud provider account, or more serious like accidently exposing company codebase to my public github repos, etc. Using one VM for work, one for personal projects, and sometime another one for random experiments, perfectly solve this problem.
+Using one VM for work, one for personal projects, and sometime another one for random experiments, can prevent many mistakes, from simple ones such as pushing a git commit at work using my personal email, provisioning personal resources to the company's cloud provider account, to more serious like accidently exposing company codebase to my public github repos, etc. 
 
 ### Efficiency
 
 Arguably, you can buy more devices, and use them for different purposes. In fact, that's what I did in the past for a couple of years.
-After a while, I realise it's really waste of money, space, and time to manage.
+After a while, I realise it's really waste of money, space, and time to manage. If I can achieve same result, using just one devices, why bother.
 
 ### Security
 
@@ -70,9 +70,9 @@ As a result, the performance of my day-to-day workflow is not affected whatsoeve
 In the past, I have used Ubuntu (2+ years), CentOS (~1 year), and Arch (1+ year). I stared using NixOS about 9 months ago. I have to say I like NixOS the most.
 With NixOS, I can have my entire VM's system/user configuration as code. Hopefully I can share my thought about Nix/NixOS in depth in another post.
 
-With this toolbox, it takes literally less than 10 minutes for me to provisioning a fully working development environment.
+With this toolbox, it takes literally less than **10 minutes** for me to provisioning a fully working development environment.
 I have to agree that it might not be as practical as working directly in MacOS.
-However, it's still practical enough for me. All the above reasons can totally justify for 10 minutes every now and then.
+However, it's still practical enough for me. All the above reasons can totally justify for 10 minutes once in a while.
 
 That is it for **Part 2**. By no mean, this is the perfect setup. It might not work for you. Everyone is different.
 One thing for sure, this setup works for me at this moment. I don't know if I would make any changes in the future, but for now I'm pretty happy with this.
