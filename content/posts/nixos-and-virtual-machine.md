@@ -6,6 +6,7 @@ tags: ["nix", "nixos", "vm", "utm", "wfh", "security", "kitty", "lemonade", "gpg
 
 This is **Part 2** of the series about my remote workstation setup.
 In the [first part](/posts/my-workstation-setup/), I talked about GnuPG and Yubikey. In this post, I will share my OS (Operating System) level setup.
+This setup is heavily inspired by [Michell Hashimoto](https://github.com/mitchellh/nixos-config)
 
 My laptop is a Macbook M1 Pro. However, I mainly use MacOS for productivity apps, such as web browser, slack, zoom, etc. that (IMHO) work best on Mac. For the development environment, I always prefer Linux.
 Mac OS is pretty good for dev, I just think, Linux is still better overall. So why not combine the best of both, right?
