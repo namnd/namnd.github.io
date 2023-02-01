@@ -12,4 +12,4 @@ Most of the time, I probably say [something silly](https://twitter.com/fishsauc3
 On this site, I will try to be more thoughtful.\
 Opinions are my own.
 
-[My Identity - GPP Key](/gpg-key.txt)
+[My Identity - GPP Key](https://github.com/namnd.gpg)
