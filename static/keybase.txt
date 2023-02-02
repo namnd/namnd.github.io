@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/namnd_
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://namnd.com
+  * I am namnd_ (https://keybase.io/namnd_) on keybase.
+  * I have a public key ASApWZ_usUHfX-Jq_hbH0i4xFYmscFoQGM7cJN-0ib1k9wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012029599feeb141df5fe26afe16c7d22e311589ac705a1018cedc24dfb489bd64f70a",
+      "host": "keybase.io",
+      "kid": "012029599feeb141df5fe26afe16c7d22e311589ac705a1018cedc24dfb489bd64f70a",
+      "uid": "76c6a0e6636eaf22364a47e00b809d19",
+      "username": "namnd_"
+    },
+    "merkle_root": {
+      "ctime": 1675371413,
+      "hash": "c476590377e1fba2064a2bb7a8ff6761ebc1b18c13998ab04adbf45ccde4f2ccb8e214153a29f09662ad30fd2893c7ce78d423857995f59ea1682ae32190e269",
+      "hash_meta": "1d4965787df1ea48a60d4fdc7531cc1f652db06ea40891eb689a4e1a5ad6d224",
+      "seqno": 23979988
+    },
+    "service": {
+      "entropy": "zHZ6S++yFG7S52PG/FyiDnoY",
+      "hostname": "namnd.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1675371500,
+  "expire_in": 504576000,
+  "prev": "c4d8c3ea3d47e694b372ec59d12054cc6ad623df63380aa27cf91c25ed015c81",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKVmf7rFB31/iav4Wx9IuMRWJrHBaEBjO3CTftIm9ZPcKp3BheWxvYWTESpcCB8QgxNjD6j1H5pSzcuxZ0SBUzGrWI99jOAqifPkcJe0BXIHEIDjbTb+CRbJnKwQZur+3NOTQ7aLhb/0jJn0i6z0Y4sOuAgHCo3NpZ8RAS4/I+0xLQNgZHwLQBGpaQRB7nFg0Eo7VfSjW2HeXuWy6KrsWvjFv3J46s7YQsP7skq+CWVoCPY4PjkOIf3xuBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEII7lY4hvEkZkbJDAP+ZtDSVAD6BdDWo3EvZ6b811m29wo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/namnd_
+
+==================================================================
