@@ -87,6 +87,8 @@ $ ./zig version
 0.11.0-dev.1557+03cdb4fb5
 ```
 
+Finally, you can just add `$HOME/zig/build/stage3/bin` to your shell config and reload.
+
 ## References
 
 * https://github.com/ziglang/zig/wiki/Building-Zig-From-Source#option-a-use-your-system-installed-build-tools
