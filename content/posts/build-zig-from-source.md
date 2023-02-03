@@ -22,7 +22,7 @@ $ git clone https://github.com/llvm/llvm-project ~/zig/llvm-project
 Let's create a `shell.nix` in ~/zig
 
 ```nix
-{ pkgs ? import <nixpgs> {} }:
+{ pkgs ? import <nixpkgs> {} }:
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
