@@ -12,4 +12,4 @@ Most of the time, I probably say [something silly](https://twitter.com/namnd_) o
 On this site, I will try to be more thoughtful.\
 Opinions are my own.
 
-[My Identity - GPP Key](https://github.com/namnd.gpg)
+[My Identity - GPG Key](https://github.com/namnd.gpg)
