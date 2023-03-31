@@ -1,0 +1,10 @@
+{
+  "applinks": {
+      "details": [
+      {
+        "appID": "5S8S45KU59.com.namnd.itemeter",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
