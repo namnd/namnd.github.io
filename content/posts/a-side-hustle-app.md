@@ -1,7 +1,6 @@
 ---
 title: "A side hustle app"
 date: 2023-05-08T13:38:12+10:00
-draft: true
 tags: ["hustle", "mobile", "app", "ios", "flutter", "indie"]
 ---
 
