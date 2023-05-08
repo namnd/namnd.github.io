@@ -36,4 +36,10 @@ For cloud provider, I opted to go with AWS. It's really simple and cheap solutio
 - $15 for domain itemeter.com
 - $0.82 per month, projected $10 per year
 
-A total grand of $174 AUD for one year. I think I can afford this.
+A total grand of $174 AUD for one year.
+
+## What's next
+
+I plan to charge $1.99 AUD per month or $14.99 AUD per annual. So to break even,
+I will need at least 88 paid monthly customers or 12 paid annually ones.
+It's probably a long shot but even if it doesn't work out, it's ok. I can afford $200 for a try, which is granted by my wife by the way (just kidding).
