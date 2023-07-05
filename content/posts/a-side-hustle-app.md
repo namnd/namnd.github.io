@@ -4,9 +4,12 @@ date: 2023-05-08T13:38:12+10:00
 tags: ["hustle", "mobile", "app", "ios", "flutter", "indie"]
 ---
 
-## The idea
+For the last 4 months, I have been working on a side hustle mobile app. For a long time, I've been wanted to build something. This is not the first one I started something, but sadly (or luckily) this is the first one I actually make it to public, and I am pretty happy about it. This blog post is dedicated for this side hustle project, a mini mobile app, called **itemeter**.
 
-The idea is dead simple. 
+## How it started
+
+The idea is nothing special. It's really simple, maybe too simple that no ones care to make such an app.
+It actually came out of a problem that my wife and I had recently. We usually went shopping together in the past, but recently, when we had our second child, it's more often that we have to split the household duties. In particularly, I would go shopping while my wife is feeding the baby, or cooking meal, and so on. 
 
 _"Any household have a list of items to buy. Sooner or later, you will run out of some, and need to go to the supermarket to restock. It's not unusual (or at least happened to me a dozen of times) is that you just got home from a trip to shopping mall, just to realise something else is running out soon. It's super annoying. Our brain is busy with many other things in life, and we just often forgot a little small thing. Stuffs just don't run out at the same time. But hey, if we know how much left, we can be well prepared and almost never running out of things."_
 
@@ -33,7 +36,7 @@ For cloud provider, I opted to go with AWS. It's really simple and cheap solutio
 ## Costs
 
 - $149 for Apple Developer membership
-- $15 for domain itemeter.com
+- $15 for the domain itemeter.com
 - $0.82 per month, projected $10 per year
 
 A total grand of $174 AUD for one year. I think I can afford this.
