@@ -12,18 +12,11 @@ My family usually went shopping together since forever, but recently, when we ha
 
 ## Practical problem statement
 
-_"Any household have a list of items to buy. Sooner or later, you will run out of some, and need to go to the supermarket to restock. It's not unusual (or at least happened to me a dozen of times) is that you just got home from a trip to shopping mall, just to realise something else is running out soon. It's super annoying. Our brain is busy with many other things in life, and we just often forgot a little small thing. Stuffs just don't run out at the same time. But hey, if we know how much left, we can be well prepared and almost never running out of things."_
+_"Any household have a list of items to buy. Sooner or later, you will run out of some, and need to go to the supermarket to restock. It's not unusual that you just got home from a shopping trip, just to realise something else is running out soon. It's super annoying. Our brain is busy with many other things in life, and we just often forgot a little small thing. Stuffs just don't run out at the same time. But hey, if we can be well prepared with a little of efforts, maybe we won't never running out of things again."_
 
-This [itemeter](https://itemeter.com) app is just another tiny productivity app that hopes to help you achive such small things, but sometime can make a big difference.
+[itemeter](https://itemeter.com) is just another tiny and boring productivity app that hopes to help you achieve such small things. It's definitely not for everyone, but I think there is a small proportion of popullation that are in my shoes.
 
 ![](/website.png)
-
-## But why
-There are probably many similar apps out there that can be used for this purpose. A simple Todo app will do 70% of the job. The Notes app by Apple almost got you cover too. So, why another one. Well, for a couple of reasons:
-- I couldn't find exact app that fulfill my requirements. Sometime, family cannot go shopping together. I don't know some of stuff my wife need, and vice versa. By sharing the list for all members of the family, it makes things much easier.
-- My wife and I will definitely be using this app. We find it really useful, so why not share it with many other families for (hopefully) a small revenue from it.
-- It's a side hustle thing. I am not an indie hacker nor a startup guy, but the idea is so simple to start with, so I guess I can just spend a couple of weeks to build it. Of course, it took much longer than that, but I had a great time hacking to ship this thing.
-
 
 ## Tech stacks
 
