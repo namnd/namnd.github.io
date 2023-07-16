@@ -1,14 +1,17 @@
 ---
 title: "A side hustle app"
-date: 2023-05-08T13:38:12+10:00
-tags: ["hustle", "mobile", "app", "ios", "flutter", "indie"]
+date: 2023-07-16T13:38:12+10:00
+tags: ["hustle", "mobile", "app", "ios", "flutter", "indie", "utilities", "shopping", "saving"]
 ---
 
-For the last 4 months, I have been working on an mobile app. For a long time, I've been wanted to build something. This is not the first one I started something, yet finally this is the first one I actually make it to public, and I am pretty happy about it. This blog post is dedicated for this side hustle project, a boring mini mobile app, called **itemeter**.
+For the last 4 months, I have been working on an mobile app. For a long time, I've been wanted to build something. This is not the first time I started something, yet finally this is the first one I actually make it to public, and I am pretty happy about it. This blog post is dedicated for this side hustle project, a boring mini mobile app, called **itemeter**.
 
 ## How it started
 
-My family usually went shopping together since forever, but recently, when we had our second child, it's more often that we have to split the household duties. In particularly, one of us would go shopping with the older kid, while the other stays home and look after the younger one.
+My family usually went shopping together since forever, but recently, when we had our second child, it's more often that we have to split the household duties. In particularly, one of us would go shopping with the older kid, while the other stays home and look after the younger one. We used to create the list of items to buy in the [Notes](https://apps.apple.com/us/app/notes/id1110145109) app, then share it with each other. It worked out pretty well. You can check off the item you bought. You can take photo, etc. However, Notes is more like a general Notes taking app. The UI hence is not really built for the shopping purpose. So, here's an idea. It's dead simple. It's a Notes taking app, but specialised for shopping purpose. It's also like a Todo list on steroid. My wife and I talked about it. She likes the idea. I told her I can make it in one month (of course, estimation is always wrong).
+
+## Practical problem statement
+
 _"Any household have a list of items to buy. Sooner or later, you will run out of some, and need to go to the supermarket to restock. It's not unusual (or at least happened to me a dozen of times) is that you just got home from a trip to shopping mall, just to realise something else is running out soon. It's super annoying. Our brain is busy with many other things in life, and we just often forgot a little small thing. Stuffs just don't run out at the same time. But hey, if we know how much left, we can be well prepared and almost never running out of things."_
 
 This [itemeter](https://itemeter.com) app is just another tiny productivity app that hopes to help you achive such small things, but sometime can make a big difference.
