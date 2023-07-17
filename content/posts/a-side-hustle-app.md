@@ -38,8 +38,5 @@ My AWS bills since I started this project is just $0.55 per month, which is for 
 
 ![bill](https://github.com/namnd/namnd.github.io/assets/1306029/3e8b1160-5382-4b17-82b3-662c3e337655)
 
-The significant cost includes
-- $149 for Apple Developer membership
-- $15 for the domain itemeter.com
-
-A total grand of $174 AUD for one year. I guess I can afford this for some fun
+The primary cost for me is actually the Apple Developer membership, which is $149 AUD per year. The other significant one is $15 for the domain itemeter.com.
+A total grand of $174 AUD for one year. I guess I can afford this for some fun.
