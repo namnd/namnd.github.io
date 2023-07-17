@@ -14,7 +14,7 @@ My family usually went shopping together since forever, but recently, when we ha
 
 _"Any household have a list of items to buy. Sooner or later, you will run out of some, and need to go to the supermarket to restock. It's not unusual that you just got home from a shopping trip, just to realise something else is running out soon. It's super annoying. Our brain is busy with many other things in life, and we just often forgot a little small thing. Stuffs just don't run out at the same time. But hey, if we can be well prepared with a little of efforts, maybe we won't never running out of things again."_
 
-[itemeter](https://itemeter.com) is just another tiny and boring productivity app that hopes to help you achieve such small things. It's definitely not for everyone, but I think there is a small proportion of popullation that are in my shoes.
+[itemeter](https://itemeter.com) is just another tiny and boring productivity app that hopes to help you achieve such small things. It's definitely not for everyone, but I think there is a small proportion of popullation that are in our shoes. I hope one day others (rather than just my wife and myself) also find it useful.
 
 ![](/website.png)
 
@@ -25,9 +25,9 @@ Even though I built mobile apps using Swift and React Native in the past, this t
 - I also want to support both iOS and Android (coming soon).
 - I didn't like React Native and its ecosystem.
 
-As a result, I chose Flutter. I have to say I had a great experience building with Flutter.
+I have to say I had such a great experience building with Flutter.
 
-For cloud provider, I opted to go with AWS, which I am the most familiar with. I also chose the cheapest infrastructure/backend options. 
+For cloud provider, I opted to go with AWS, which I am the most familiar with. I also chose the cheapest options possible.
 - Cognito for Users management
 - API Gateway + Lambda + DynamoDB for Backend
 - S3/Cloudfront for the marketing website
