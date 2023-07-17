@@ -18,19 +18,23 @@ _"Any household have a list of items to buy. Sooner or later, you will run out o
 
 ![](/website.png)
 
-## Tech stacks
+## Technical approach
 
-I built mobile apps using Swift and React Native in the past. This is my first time trying Flutter. For now, I am only releasing iOS app. If this goes well (hopefully), I might publish the Android version as well.
+Even though I built mobile apps using Swift and React Native in the past, this time I decided to try out Flutter. For the simple nature of this app, I definitely don't need to go natively. I also want to support both iOS and Android (coming soon). I didn't like React Native and its ecosystem. As a result, I chose Flutter. I have to say I had a great experience with Flutter.
 
-For cloud provider, I opted to go with AWS. It's really simple and cheap solution.
+For cloud provider, I opted to go with AWS, which I am pretty familiar with. I also chose the cheapest infrastructure/backend options. 
 - Cognito for Users management
 - API Gateway + Lambda + DynamoDB for Backend
 - S3/Cloudfront for the marketing website
 
 ## Costs
 
+My AWS bills since I started this project is just $0.55 per month, which is for the domain hosting
+
+![bill](https://github.com/namnd/namnd.github.io/assets/1306029/3e8b1160-5382-4b17-82b3-662c3e337655)
+
+The main cost includes
 - $149 for Apple Developer membership
 - $15 for the domain itemeter.com
-- $0.82 per month, projected $10 per year
 
 A total grand of $174 AUD for one year. I think I can afford this.
