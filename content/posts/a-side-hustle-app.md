@@ -8,7 +8,7 @@ For the last 4 months, I have been working on an mobile app. For a long time, I'
 
 ## How it started
 
-My family usually went shopping together since forever, but recently, when we had our second child, it's more often that we have to split the household duties. In particularly, one of us would go shopping with the older kid, while the other stays home and look after the younger one. We used to create the list of items to buy in the [Notes](https://apps.apple.com/us/app/notes/id1110145109) app, then share it with each other. It worked out pretty well. You can check off the item you bought. You can take photo, etc. However, Notes is more like a general Notes taking app. The UI hence is not really built for the shopping purpose. So, here's an idea. It's dead simple. It's a Notes taking app, but specialised for shopping purpose. It's also like a Todo list on steroid. My wife and I talked about it. She likes the idea. I told her I can make it in one month (of course, estimation is always wrong).
+My family usually went shopping together since forever, but recently, when we had our second child, it's more often that we have to split the household duties. In particularly, one of us would go shopping with the older kid, while the other stays home and look after the younger one. We used to create the list of items to buy in the [Notes](https://apps.apple.com/us/app/notes/id1110145109) app, then share it with each other. It worked out pretty well. You can check off the item you bought. You can take photo, etc. However, Notes is more like a general Notes taking app. The UI hence is not really built for the shopping purpose. So, here's an idea. It's dead simple. It's a Notes taking app, but specialised for shopping purpose. It's also like a Todo list on steroid. My wife and I talked about it. She likes the idea. I told her I can make it in one month (of course, estimation is always wrong). And here we are, four months later, itemeter is live.
 
 ## Practical problem statement
 
@@ -20,9 +20,14 @@ _"Any household have a list of items to buy. Sooner or later, you will run out o
 
 ## Technical approach
 
-Even though I built mobile apps using Swift and React Native in the past, this time I decided to try out Flutter. For the simple nature of this app, I definitely don't need to go natively. I also want to support both iOS and Android (coming soon). I didn't like React Native and its ecosystem. As a result, I chose Flutter. I have to say I had a great experience with Flutter.
+Even though I built mobile apps using Swift and React Native in the past, this time I decided to try out Flutter. 
+- For the simple nature of this app, I definitely don't need to go natively.
+- I also want to support both iOS and Android (coming soon).
+- I didn't like React Native and its ecosystem.
 
-For cloud provider, I opted to go with AWS, which I am pretty familiar with. I also chose the cheapest infrastructure/backend options. 
+As a result, I chose Flutter. I have to say I had a great experience building with Flutter.
+
+For cloud provider, I opted to go with AWS, which I am the most familiar with. I also chose the cheapest infrastructure/backend options. 
 - Cognito for Users management
 - API Gateway + Lambda + DynamoDB for Backend
 - S3/Cloudfront for the marketing website
@@ -33,8 +38,8 @@ My AWS bills since I started this project is just $0.55 per month, which is for 
 
 ![bill](https://github.com/namnd/namnd.github.io/assets/1306029/3e8b1160-5382-4b17-82b3-662c3e337655)
 
-The main cost includes
+The significant cost includes
 - $149 for Apple Developer membership
 - $15 for the domain itemeter.com
 
-A total grand of $174 AUD for one year. I think I can afford this.
+A total grand of $174 AUD for one year. I guess I can afford this for some fun
