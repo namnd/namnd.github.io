@@ -1,14 +1,14 @@
 ---
 title: "A side hustle app"
 date: 2023-07-16T13:38:12+10:00
-tags: ["hustle", "mobile", "app", "ios", "flutter", "indie", "utilities", "shopping", "saving"]
+tags: ["hustle", "mobile", "app", "ios", "flutter", "indie", "utilities", "shopping", "reminder", "saving"]
 ---
 
-For the last 4 months, I have been working on a mobile app. For a long time, I've been wanted to build something. This is not the first time I started something, yet finally this is the first one I actually make it to public, and I am pretty happy about it. This blog post is dedicated for this side hustle project, a boring mini mobile app, called **itemeter**.
+For the last 4 months, I have been working on a mobile app. This is not the first time I started something, yet finally this is the first one I actually make it to the public. In this blog post, I just want to share some more details about this side hustle project, a boring mini mobile app, called **itemeter**.
 
 ## How it started
 
-My family usually went shopping together since forever, but recently, when we had our second child, it's more often that we have to split the household duties. In particularly, one of us would go shopping with the older kid, while the other stays home and looks after the younger one. We used to create the list of items to buy in the [Notes](https://apps.apple.com/us/app/notes/id1110145109) app, then share it with each other. It worked out pretty well. You can check off the item you bought. You can take photo, etc. However, Notes is more like a general Notes taking app. The UI hence is not really built for the shopping purpose. So, here's an idea. It's dead simple. It's a Notes taking app, but specialised for shopping purpose. It's also like a Todo list on steroid. My wife and I talked about it. She likes the idea. I told her I can make it in one month (of course, estimation is always wrong). And here we are, four months later, itemeter is live.
+My wife and I usually went shopping together since forever, but recently, when we had our second child, it's more often that we have to split the household duties. In particularly, one of us would go shopping with the older kid, while the other stays home and looks after the younger one. We used to create the list of items to buy in the [Notes](https://apps.apple.com/us/app/notes/id1110145109) app, then share it with each other. It worked out pretty well for the most part. You can check off the item you bought. You can take photo, etc. However, at some point it becomes a bit harder for us to keep track of everything. It's not super easy to find or (impossible) to remember all the things we need to buy. Somehow, we always missed a thing or two. It's annoying that sometime you have to go to the shop just to get one single item. So, here's an idea. It's dead simple. It's a shopping list (kinda like a Todo list) plus reminding feature. My wife and I talked about it. She quite likes the idea. I told her I can create such an app in one month. And here we are, four months later, itemeter is officially live.
 
 ## Practical problem statement
 
@@ -20,12 +20,10 @@ _"Any household have a list of items to buy. Sooner or later, you will run out o
 
 ## Technical approach
 
-Even though I built mobile apps using Swift and React Native in the past, this time I decided to try out Flutter. 
+I have built mobile apps using Swift and React Native in the past, this time I decided to try out Flutter. 
 - For the simple nature of this app, I definitely don't need to go natively.
-- I also want to support both iOS and Android (coming soon).
+- I want to support both iOS and Android (coming soon).
 - I didn't like React Native and its ecosystem.
-
-I have to say I had such a great experience building with Flutter.
 
 For cloud provider, I opted to go with AWS, which I am the most familiar with. I also chose the cheapest options possible.
 - Cognito for Users management

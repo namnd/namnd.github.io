@@ -1,7 +1,7 @@
 ---
 title: "Build Zig From Source"
 date: 2023-02-03T15:50:03+10:00
-tags: ["nixos", "zig", "direnv"]
+tags: ["note", "nixos", "zig", "direnv"]
 ---
 
 
