@@ -22,7 +22,7 @@ _"Any household have a list of items to buy. Sooner or later, you will run out o
 
 I have built mobile apps using Swift and React Native in the past, this time I decided to try out Flutter. 
 - For the simple nature of this app, I definitely don't need to go natively.
-- I want to support both iOS and Android (coming soon).
+- I want to start with iOS first yet I need a piece of mind that I can easily make an Android version if I have a chance.
 - I didn't like React Native and its ecosystem.
 
 For cloud provider, I opted to go with AWS, which I am the most familiar with. I also chose the cheapest options possible.
@@ -37,4 +37,13 @@ My AWS bills since I started this project is just $0.55 per month, which is for 
 ![bill](https://github.com/namnd/namnd.github.io/assets/1306029/3e8b1160-5382-4b17-82b3-662c3e337655)
 
 The primary cost for me is actually the Apple Developer membership, which is $149 AUD per year. The other significant one is $15 for the domain itemeter.com.
-A total grand of $174 AUD for one year. I guess I can afford this for some fun.
+A total grand of **$174 AUD** for one year. I guess I can afford this for some fun.
+
+## What's next?
+
+This is more or less a fun side project. Learning Flutter was a fun experience. My wife and I will definitely be using the app for our shopping experience.
+
+It would be nice to make some money off the app, enough to buy an Android phone, then build the Android version of the app.
+I am not sure how to do that yet. I have no idea about marketing, sales, etc, and I dont plan to learn those things too.
+
+I do have a few feature ideas for the app though. Maybe that would be my best next things to do.
