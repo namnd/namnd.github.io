@@ -4,7 +4,7 @@ date: 2024-01-20T15:14:00+11:00
 tags: ["wfh", "security", "compliance", "gpg", "ssh", "yubikey", "renew"]
 ---
 
-It's been a year since I setup my GPG + Yubikey. It has now been expired and we need to renew the keys.
+It's been a year since [I setup my GPG + Yubikey](/posts/my-workstation-setup/). It has now been expired and we need to renew the keys.
  
 ## Step 1: First step is to unplug the Yubikey, grab the master key USB and import it
 
