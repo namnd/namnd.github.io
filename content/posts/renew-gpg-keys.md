@@ -6,7 +6,9 @@ tags: ["wfh", "security", "compliance", "gpg", "ssh", "yubikey", "renew"]
 
 It's been a year since [I setup my GPG + Yubikey](/posts/my-workstation-setup/). It has now been expired and we need to renew the keys.
  
-## Step 1: First step is to unplug the Yubikey, grab the master key USB and import it
+## Step 1: Import the master key
+
+First step is to unplug the Yubikey, grab the master key USB and import it
 
 ```bash
 $ mv .gnupg .gnupg_backup
@@ -24,7 +26,7 @@ uid           [ expired] Nam Nguyen <nam.nguyen@indebted.co>
 uid           [ expired] Nam Nguyen <me@namnd.com>
 ```
 
-## Step 2: Renew the master key
+## Step 2: Renew the master key and subkeys
 
 ```bash
 $ gpg --edit-key E078ECC765D900C33AEDD9F7A85791287A30BB7D
