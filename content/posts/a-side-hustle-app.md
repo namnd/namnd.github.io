@@ -2,6 +2,7 @@
 title: "A side hustle app"
 date: 2023-07-16T13:38:12+10:00
 tags: ["hustle", "mobile", "app", "ios", "flutter", "indie", "utilities", "shopping", "reminder", "saving"]
+draft: true
 ---
 
 For the last 4 months, I have been working on a mobile app. This is not the first time I started something, yet finally this is the first one I actually make it to the public. In this blog post, I just want to share some more details about this side hustle project, a boring mini mobile app, called **itemeter**.
