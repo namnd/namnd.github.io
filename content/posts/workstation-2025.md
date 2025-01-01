@@ -1,7 +1,7 @@
 ---
 title: "Workstation 2025"
 date: 2025-01-01T10:07:54+10:00
-draft: true
+tags: ["nix", "nixos", "vm", "utm", "ghostty", "lemonade", "gpg", "pass", "maccy", "hammerspoon", "zen-browser"]
 ---
 
 It's been almost 2 years since my last workstation [setup post](https://namnd.com/posts/nixos-and-virtual-machine/). At a high level, it hasn't changed much, but it's been a while, so I figured it's a good time to share some updates.
