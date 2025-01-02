@@ -54,9 +54,9 @@ $ make install
 
 Once finish installing, shutdown the VM, remove bootable ISO, then start the VM again.
 
-> Before continuing step 4, check out the `Makefile` and `./vm/bootstrap.nix` and make necessary changes to your custom details.
+> Before continuing step 4, make sure to check out the `Makefile` and `./vm/bootstrap.nix` and make necessary changes to your custom details. This step will create new OS user, copy secrets (GPG keys), config Tailscale, install home-manager, neovim, etc. Most of them are optional, so you can remove what you don't need.
 
-4. Run command to bootstrap the VM (create user, copy secrets, config tailscale, install home-manager, neovim, etc.)
+4. Run command to bootstrap the VM
 
 ```bash
 $ make bootstrap
