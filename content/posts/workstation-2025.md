@@ -6,7 +6,7 @@ tags: ["nix", "nixos", "vm", "utm", "ghostty", "lemonade", "gpg", "pass", "maccy
 
 It's been almost 2 years since my last workstation [setup post](https://namnd.com/posts/nixos-and-virtual-machine/). At a high level, it hasn't changed much, but it's been a while, so I figured it's a good time to share some updates.
 
-## Host - Mac OS
+## Host - MacOS
 
 Not much has changed on my Macbook setup.
 
@@ -18,7 +18,7 @@ Not much has changed on my Macbook setup.
   * ~kitty~ [Ghostty](https://ghostty.org/) - a new terminal emulator written in Zig
   * and last but not least [UTM](https://mac.getutm.app/). It's super easy and effortless to create a new NixOS VM
 
-> Before jumping in to the NixOS VM, I want to point out a very important thing, that is I use **Nix** (with [*Home manager*](https://github.com/nix-community/home-manager) on top) as the package manager for both Mac OS and NixOS. This allows me to have a consistent user environment across both systems. Tools like `git`, `zsh`, `gpg`, and many other cli tools I can set up once and use everywhere.
+> Before jumping in to the NixOS VM, I want to point out a very important thing, that is I use **Nix** (with [*Home manager*](https://github.com/nix-community/home-manager) on top) as the package manager for both MacOS and NixOS. This allows me to have a consistent user environment across both systems. Tools like `git`, `zsh`, `gpg`, and many other cli tools I can set up once and use everywhere.
 
 ## Virtual machine - NixOS
 

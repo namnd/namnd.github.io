@@ -4,9 +4,6 @@ date: 2023-02-03T15:50:03+10:00
 tags: ["note", "nixos", "zig", "direnv"]
 ---
 
-
-## Setup
-
 First, clone the ziglang repository
 
 ```bash
