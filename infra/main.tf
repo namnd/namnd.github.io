@@ -3,8 +3,12 @@ provider "aws" {
   allowed_account_ids = ["976193250022"]
 }
 
+locals {
+  domain = "namnd.com"
+}
+
 resource "aws_route53_zone" "this" {
-  name = "namnd.com"
+  name = local.domain
 }
 
 resource "aws_route53_record" "gh_pages_txt" {
