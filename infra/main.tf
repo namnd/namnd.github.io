@@ -3,6 +3,9 @@ provider "aws" {
   allowed_account_ids = ["976193250022"]
 }
 
+data "aws_region" "current" {}
+data "aws_caller_identity" "current" {}
+
 locals {
   domain = "namnd.com"
 }
