@@ -6,7 +6,7 @@ comment: false
 
 Hi there,
 
-My name is **Nam Nguyen**, and I'm a mediocre Software Engineer at [InDebted](https://www.linkedin.com/company/indebted/about).
+My name is **Nam Nguyen**, and I'm a Platform Engineer at ~[InDebted](https://www.linkedin.com/company/indebted/about)~ a QLD State Goverment agency.
 
 Most of the time, I probably say [something silly](https://twitter.com/namnd_) on Twitter.\
 On this site, I will try to be more thoughtful.\
